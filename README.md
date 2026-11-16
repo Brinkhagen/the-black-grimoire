@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="assets/black-grimoire-hero.svg" alt="The Black Grimoire — Free Downloads fantasy cover banner" width="100%">
-
 # THE BLACK GRIMOIRE
 ### Dark Fantasy · 5E-Compatible Sourcebook
 
@@ -49,28 +47,11 @@ Enter a world of cursed creatures, dangerous relics and mysteries that refuse to
 
 **[Listen to / download the MP3](https://github.com/Brinkhagen/the-black-grimoire/releases/tag/soundtrack-001)** · **[English preview release](https://github.com/Brinkhagen/the-black-grimoire/releases/tag/preview-en-001)**
 
-## Visual gallery
+## Official visual identity
 
-<div align="center">
-<table>
-<tr>
-<td width="50%" align="center">
-<a href="https://github.com/Brinkhagen/the-black-grimoire/releases/tag/soundtrack-001">
-<img src="assets/thirteenth-bell.svg" alt="The Thirteenth Bell — official soundtrack artwork" width="440">
-</a>
-<br><strong>The Thirteenth Bell</strong><br>
-<a href="https://github.com/Brinkhagen/the-black-grimoire/releases/tag/soundtrack-001">Free soundtrack · MP3</a>
-</td>
-<td width="50%" align="center">
-<a href="https://github.com/Brinkhagen/the-black-grimoire/releases/tag/preview-en-001">
-<img src="assets/preview-edition-en.svg" alt="The Black Grimoire — English preview artwork" width="440">
-</a>
-<br><strong>Free Preview Edition</strong><br>
-<a href="https://github.com/Brinkhagen/the-black-grimoire/releases/tag/preview-en-001">English preview · PDF</a>
-</td>
-</tr>
-</table>
-</div>
+The final project artwork uses torn and scorched parchment borders, ornate gold details, gothic architecture, a crimson eclipse and dark burgundy tones. We are replacing early concept illustrations with the approved original campaign artwork.
+
+The original preview and soundtrack banners will be added here after the image assets have been uploaded to this repository.
 
 ## Follow the project
 
