@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#100c11">
-<meta name="description" content="Free original dark fantasy soundtrack and sourcebook previews from The Black Grimoire. No sign-up or pledge required.">
+<meta name="description" content="Download The Black Grimoire English 20-page fantasy PDF preview and The Thirteenth Bell original cinematic soundtrack for free. No account, checkout or pledge required.">
 <meta property="og:title" content="The Black Grimoire — Free Downloads">
-<meta property="og:description" content="The Thirteenth Bell — Original Soundtrack 001. Free dark fantasy soundtrack and sourcebook previews.">
-<title>The Black Grimoire | Free Soundtrack & Previews</title>
+<meta property="og:description" content="Free 20-page English PDF preview, three creatures, four relics, one mini-adventure and The Thirteenth Bell original soundtrack.">
+<meta name="color-scheme" content="dark"><meta property="og:type" content="website"><meta property="og:url" content="https://brinkhagen.github.io/the-black-grimoire/"><title>The Black Grimoire — Free PDF & Soundtrack Downloads</title>
 <style>
 :root { color-scheme: dark; --bg:#100d12; --ink:#f6ede6; --muted:#c5b6bb; --gold:#e5bd7b; --darkred:#711d36; --line:rgba(229,189,123,.23);}
 * {box-sizing:border-box}
@@ -31,7 +31,7 @@ h1 {font-size:clamp(2.5rem,7vw,5.25rem);line-height:1.05;letter-spacing:.045em;m
 .bell {width:70px;height:70px;margin:10px auto 25px;display:block;filter:drop-shadow(0 0 18px #b92e4966)}
 .bell svg {width:100%;height:100%;fill:none;stroke:var(--gold);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 .btn {display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:11px 19px;border-radius:5px;background:linear-gradient(100deg,#7c203b,#a0364d);font-weight:700;border:1px solid #bf6075;color:#fff;transition:transform .15s,filter .15s}
-.btn:hover {transform:translateY(-2px);filter:brightness(1.1)}
+.btn:hover {transform:translateY(-2px);filter:brightness(1.1)}.btn:focus-visible{outline:3px solid var(--gold);outline-offset:4px}.btn:not(.disabled):active{transform:translateY(0)}
 .btn.muted {background:#28212b;border-color:var(--line);font-weight:500}
 .btn.disabled {pointer-events:none;background:#30252d;border-color:#54404b;color:#b7a5af}
 .sub {font-size:.86rem;color:var(--muted)}
@@ -70,7 +70,7 @@ footer .wrap {display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap
   <div class="eyebrow">A dark fantasy 5.5e sourcebook</div>
   <h1>ENTER THE DARKNESS</h1>
   <p>Step into the world of The Black Grimoire. Discover free cinematic music and sourcebook previews. No account, no checkout, no pledge required.</p>
-  <a class="btn" href="#downloads">Explore free downloads ↓</a>
+  <div class="cta-row" style="justify-content:center"><a class="btn" href="https://github.com/Brinkhagen/the-black-grimoire/releases/download/preview-en-001/THE.BLACK.GRIMOIRE.A.Dark.Fantasy.5.5e.Sourcebook.pdf">Download Free PDF ↗</a><a class="btn muted" href="https://github.com/Brinkhagen/the-black-grimoire/releases/download/soundtrack-001/The.Black.Grimoire.The.Thirteenth.Bell.Official.Original.Soundtrack.001.mp3">Download Free Soundtrack ↗</a></div><p class="sub" style="margin-top:12px;font-size:.88rem">English PDF · MP3 audio · No sign-up required</p>
 </section>
 <main class="wrap" id="downloads">
   <section class="feature" aria-labelledby="ost">
@@ -79,7 +79,7 @@ footer .wrap {display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap
       <div class="overline">Official Original Soundtrack · 001</div>
       <h2 id="ost">The Thirteenth Bell</h2>
       <p>Before the first page is turned, the thirteenth bell must ring. A dark cinematic prologue with ancient narration, orchestral tension and a haunting gothic choir.</p>
-      <div class="cta-row"><a id="soundtrack-link" class="btn disabled" aria-disabled="true" href="https://github.com/Brinkhagen/the-black-grimoire/releases">Soundtrack coming soon</a><span id="soundtrack-status" class="status">Awaiting first release</span></div>
+      <div class="cta-row"><a id="soundtrack-link" class="btn" href="https://github.com/Brinkhagen/the-black-grimoire/releases/download/soundtrack-001/The.Black.Grimoire.The.Thirteenth.Bell.Official.Original.Soundtrack.001.mp3">↓ Download MP3 · Free</a><span id="soundtrack-status" class="status">Official free release</span></div>
       <div class="meta"><span>MP3 Audio</span><span>English</span><span>Free Download</span></div>
     </div>
   </section>
@@ -87,53 +87,53 @@ footer .wrap {display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap
   <section aria-labelledby="previews">
     <div class="overline">Explore the forbidden pages</div>
     <h2 id="previews" class="section-title">Free Sourcebook Previews</h2>
-    <p class="sub">A glimpse into the world of The Black Grimoire. Preview PDFs are being prepared in three languages.</p>
+    <p class="sub">The English 20-page preview is available now. Explore three original creatures, four forbidden relics and the mini-adventure <em>The Village Without Shadows</em>. German and Turkish editions are planned.</p>
     <div class="pdf-grid">
-      <article class="pdf"><div class="overline">PDF · EN</div><strong>English Edition</strong><p>Free introduction and a first look at the sourcebook.</p><a class="btn disabled" aria-disabled="true" id="pdf-en" href="https://github.com/Brinkhagen/the-black-grimoire/releases">Coming soon</a><span class="status" id="status-en">Not published yet</span></article>
+      <article class="pdf"><div class="overline">PDF · EN</div><strong>English Edition</strong><p>20 pages · 3 creatures · 4 relics · 1 mini-adventure.</p><a class="btn" id="pdf-en" href="https://github.com/Brinkhagen/the-black-grimoire/releases/download/preview-en-001/THE.BLACK.GRIMOIRE.A.Dark.Fantasy.5.5e.Sourcebook.pdf">↓ Download PDF · Free</a><span class="status ready" id="status-en">Official free release</span></article>
       <article class="pdf"><div class="overline">PDF · DE</div><strong>Deutsche Ausgabe</strong><p>A free preview for German-speaking adventurers.</p><a class="btn disabled" aria-disabled="true" id="pdf-de" href="https://github.com/Brinkhagen/the-black-grimoire/releases">Coming soon</a><span class="status" id="status-de">Not published yet</span></article>
       <article class="pdf"><div class="overline">PDF · TR</div><strong>Türkçe Sürüm</strong><p>Discover the dark fantasy world in Turkish.</p><a class="btn disabled" aria-disabled="true" id="pdf-tr" href="https://github.com/Brinkhagen/the-black-grimoire/releases">Coming soon</a><span class="status" id="status-tr">Not published yet</span></article>
     </div>
   </section>
-  <div class="note">Files are free for personal listening and reading; free access does not grant permission to resell or redistribute them. The soundtrack was produced with AI-music assistance using Suno. Download statistics count download events, not unique people.</div>
+  <div class="note"><strong>Free to discover.</strong> No account, checkout or pledge needed. The PDF is a draft sampler, not the completed sourcebook; rules and contents may change. The soundtrack was created with AI music-generation assistance using Suno. Free downloads are intended for personal listening and reading; redistribution and resale are not granted. GitHub download counts measure download events, not unique people.</div>
 </main>
 <footer><div class="wrap"><span>© 2026 The Black Grimoire · An independent dark fantasy project</span><span><a href="https://github.com/Brinkhagen/the-black-grimoire/releases">All Releases ↗</a> · <a href="https://github.com/Brinkhagen/the-black-grimoire">GitHub ↗</a></span></div></footer>
 <script>
-(function(){
+(function () {
   'use strict';
-  var api='https://api.github.com/repos/Brinkhagen/the-black-grimoire/releases?per_page=100';
-  var entries=[
-    {id:'soundtrack-link',status:'soundtrack-status',name:'The_Black_Grimoire_OST_001_The_Thirteenth_Bell.mp3'},
-    {id:'pdf-en',status:'status-en',name:'The_Black_Grimoire_Free_Preview_EN.pdf'},
-    {id:'pdf-de',status:'status-de',name:'The_Black_Grimoire_Free_Preview_DE.pdf'},
-    {id:'pdf-tr',status:'status-tr',name:'The_Black_Grimoire_Free_Preview_TR.pdf'}
+  // Download buttons use verified direct asset URLs in the HTML.
+  // The API only enriches each card with optional download counts.
+  const api = 'https://api.github.com/repos/Brinkhagen/the-black-grimoire/releases?per_page=30';
+  const entries = [
+    { tag:'soundtrack-001', ext:'.mp3', button:'soundtrack-link', status:'soundtrack-status' },
+    { tag:'preview-en-001', ext:'.pdf', button:'pdf-en', status:'status-en' },
+    { tag:'preview-de-001', ext:'.pdf', button:'pdf-de', status:'status-de' },
+    { tag:'preview-tr-001', ext:'.pdf', button:'pdf-tr', status:'status-tr' }
   ];
-  function activate(entry,asset){
-    var el=document.getElementById(entry.id), s=document.getElementById(entry.status);
-    if(!el||!s)return;
-    el.href=asset.browser_download_url;
-    el.textContent=entry.id==='soundtrack-link'?'Download MP3 · Free':'Download PDF · Free';
-    el.classList.remove('disabled');
-    el.removeAttribute('aria-disabled');
-    var n=Number(asset.download_count)||0;
-    s.textContent=n.toLocaleString('en-US')+' download'+(n===1?'':'s');
-    s.classList.add('ready');
-  }
-  fetch(api,{headers:{'Accept':'application/vnd.github+json'}}).then(function(resp){
-    if(!resp.ok)throw new Error('API unavailable');
-    return resp.json();
-  }).then(function(releases){
-    var assets=[];
-    (Array.isArray(releases)?releases:[]).forEach(function(rel){
-      if(!rel.draft && !rel.prerelease && Array.isArray(rel.assets))assets=assets.concat(rel.assets);
+  fetch(api, { headers: { 'Accept':'application/vnd.github+json' } })
+    .then(function (response) { if (!response.ok) throw Error('API unavailable'); return response.json(); })
+    .then(function (releases) {
+      if (!Array.isArray(releases)) return;
+      for (const entry of entries) {
+        const release = releases.find(function (r) { return r.tag_name === entry.tag && !r.draft && !r.prerelease; });
+        if (!release || !Array.isArray(release.assets)) continue;
+        const matches = release.assets.filter(function (a) { return a.state === 'uploaded' && a.name.toLowerCase().endsWith(entry.ext); });
+        if (matches.length !== 1) continue;
+        const asset = matches[0];
+        const button = document.getElementById(entry.button);
+        const status = document.getElementById(entry.status);
+        if (!button || !status) continue;
+        button.href = asset.browser_download_url;
+        button.textContent = entry.ext === '.mp3' ? '↓ Download MP3 · Free' : '↓ Download PDF · Free';
+        button.classList.remove('disabled');
+        button.removeAttribute('aria-disabled');
+        const n = Number(asset.download_count) || 0;
+        status.textContent = n.toLocaleString('en-US') + ' download event' + (n === 1 ? '' : 's');
+        status.classList.add('ready');
+      }
+    })
+    .catch(function () {
+      // Keep the permanent, verified links usable if the API is rate-limited.
     });
-    entries.forEach(function(entry){
-      var match=assets.find(function(a){return a.name===entry.name && a.state==='uploaded';});
-      if(match)activate(entry,match);
-    });
-  }).catch(function(){
-    var s=document.getElementById('soundtrack-status');
-    if(s)s.textContent='Live file status temporarily unavailable — see All Releases';
-  });
 })();
 </script>
 </body>
