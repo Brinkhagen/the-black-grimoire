@@ -12,7 +12,7 @@
 <g fill="#0b0c14" opacity=".8"><path d="M0 486 116 426l41 39 60-95 46 96 66-65 81 64 75-130 82 103 94-62 66 91 78-57 61 32 94-91v239H0Z"/></g>
 <g transform="translate(474 240)">
  <path d="M0-146v25" stroke="url(#g)" stroke-width="17" stroke-linecap="round"/>
- <path d="M-98 78V-18c0-80 36-129 98-129S98-98 98-18v96c0 20 15 32 30 51h-256c15-19 30-31 30-51Z" stroke="#ffb97d" stroke-width="29" opacity=".2" filter="url(#gl)" fill="#8c2b45" opacity=".4"/>
+ <path d="M-98 78V-18c0-80 36-129 98-129S98-98 98-18v96c0 20 15 32 30 51h-256c15-19 30-31 30-51Z" stroke="#ffb97d" stroke-width="29" filter="url(#gl)" fill="#8c2b45" opacity=".4"/>
  <path d="M-98 78V-18c0-80 36-129 98-129S98-98 98-18v96c0 20 15 32 30 51h-256c15-19 30-31 30-51Z" fill="#3b2330" stroke="url(#g)" stroke-width="12"/>
  <path d="M-50 157Q0 201 51 157M-120 130H120M-47-68Q0-112 47-68" fill="none" stroke="#efc790" stroke-width="7"/>
  <path d="M-33 14h66M0-16v66" stroke="#c99860" stroke-width="6" opacity=".7"/>
