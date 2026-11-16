@@ -1,36 +1,43 @@
-# Publish your free downloads — two remaining steps
+# Publication status & download setup
 
-The README, landing page, license notes and release draft have been created. **The soundtrack MP3 is not yet published as a GitHub Release asset.**
+## Published now
 
-## 1. Publish the soundtrack
+Two public GitHub Releases are live:
 
-1. Go to [GitHub → New release](https://github.com/Brinkhagen/the-black-grimoire/releases/new).
-2. Create tag `soundtrack-001` from the `main` branch.
-3. Title: `The Black Grimoire — The Thirteenth Bell (Official Soundtrack 001)`.
-4. Paste the prepared public release description from [RELEASE_NOTES.md](RELEASE_NOTES.md).
-5. Drag in your MP3 as an attachment with the **exact** name:
-   `The_Black_Grimoire_OST_001_The_Thirteenth_Bell.mp3`
-6. Publish release.
-7. Test the link in an incognito/private browser window.
+| Release | Tag | Public file |
+|---|---|---|
+| Soundtrack 001 — The Thirteenth Bell | [`soundtrack-001`](https://github.com/Brinkhagen/the-black-grimoire/releases/tag/soundtrack-001) | [MP3](https://github.com/Brinkhagen/the-black-grimoire/releases/download/soundtrack-001/The.Black.Grimoire.The.Thirteenth.Bell.Official.Original.Soundtrack.001.mp3) |
+| Free Preview Edition — English | [`preview-en-001`](https://github.com/Brinkhagen/the-black-grimoire/releases/tag/preview-en-001) | [PDF](https://github.com/Brinkhagen/the-black-grimoire/releases/download/preview-en-001/THE.BLACK.GRIMOIRE.A.Dark.Fantasy.5.5e.Sourcebook.pdf) |
 
-**Important:** Check that the Suno subscription at the **time of generation** allows the planned public promotional distribution. Do not publish if rights are still uncertain.
+**Visitors do not need a GitHub account to download either file.** Both are currently hosted as release assets.
 
-## 2. Enable the customer-friendly GitHub Pages download hub
+## Activate the illustrated download website
+
+The [website source](index.html) and artwork in [assets](../assets) are committed. To publish the site at the GitHub Pages URL:
 
 1. Open [Settings → Pages](https://github.com/Brinkhagen/the-black-grimoire/settings/pages).
-2. Under **Build and deployment → Source**, choose **Deploy from a branch**.
-3. Choose branch **main** and folder **/docs**, then click **Save**.
-4. Once GitHub reports successful publication, the page should be at:
-   `https://brinkhagen.github.io/the-black-grimoire/`
+2. Choose **Deploy from a branch**.
+3. Set **main** and folder **/docs**, then click **Save**.
+4. When GitHub confirms publishing, open [The Black Grimoire download website](https://brinkhagen.github.io/the-black-grimoire/) in a private window.
+5. Test both file download buttons and the layout on desktop and mobile.
 
-The landing page automatically queries public GitHub Releases and, when the expected filename appears, shows a **Download MP3** button and the download event count. The three PDF buttons behave the same way once the actual preview PDFs have been published.
+We cannot confirm Pages is enabled solely from committing HTML files. The two current button URLs point directly to the published assets, so they also work when GitHub API rate limits block live statistics.
 
-**Do not put the MP3 in the Git source tree.** Use Release assets to keep the repository clean and preserve download statistics.
+## Publish additional PDF previews
 
-## Tracking
+- German: tag `preview-de-001` + one PDF asset
+- Turkish: tag `preview-tr-001` + one PDF asset
 
-- Per-file download events appear on the download page after release publication.
-- To inspect all counts locally: `python scripts/download_stats.py`
-- To export a spreadsheet-ready count: `python scripts/download_stats.py --csv > counts.csv`
+Only publish these after the actual translated **PDF documents** are completed and checked. The artwork/banner images are not substitutes for PDF content. After publication, the website automatically enables the appropriate language card if it finds one matching PDF asset.
 
-GitHub counts downloads; these are not necessarily unique people. The Pages landing page does not automatically count page visits or collect email addresses.
+## Download analytics
+
+- Use [GitHub's public Releases API](https://api.github.com/repos/Brinkhagen/the-black-grimoire/releases).
+- Or run `python scripts/download_stats.py` after cloning the repo.
+- Export with `python scripts/download_stats.py --csv > downloads.csv`.
+
+Download counts measure **events, not unique visitors or backers**. The website does not track visitor numbers by itself.
+
+## AI and publication
+
+The soundtrack was produced with assistance from Suno. Public/promotional rights depend on the applicable terms and the subscription held **at the time of generation**. Confirm those before promoting or distributing the recording commercially.
